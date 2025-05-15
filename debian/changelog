@@ -1,3 +1,98 @@
+pavucontrol-qt (2.1.0-1) unstable; urgency=medium
+
+  * New upstream version 2.1.0.
+  * debian/control: build-deps on lxqt-build-tools (>= 2.1.0~).
+  * Run wrap-and-sort.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 04 Dec 2024 18:57:49 +0100
+
+pavucontrol-qt (2.0.0-1) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 27 Nov 2024 19:08:12 +0100
+
+pavucontrol-qt (2.0.0-1~exp1) experimental; urgency=medium
+
+  [ Severus Septimius ]
+  * New upstream release 2.0.0
+  * debian/control: bump dep qttranslations5-l10n -> qt6-translations-l10n
+  * debian/control: bump dep on lxqt-build-tools (>= 2.0.0+really2.0.0~)
+  * debian/control: remove dep on libqt5x11extras5-dev
+  * debian/control: bump dep on libqt5svg5-dev -> qt6-svg-dev
+  * debian/control: bump dep on libkf5windowsystem-dev ->
+    libkf6windowsystem-dev
+  * debian/control: bump dep on qttools5-dev -> qt6-tools-dev
+
+  [ Andrew Lee (李健秋) ]
+  * debian/rules: suppress blhc error by added ignore-line-regexp.
+  * debian/salsa-ci.yml: drop blhc tests error workaround.
+  * debian/salsa-ci.yml: build against to experimental.
+  * Clean up of group membership after 2nd calls.
+  * debian/copyright: update.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sun, 22 Sep 2024 11:02:13 +0200
+
+pavucontrol-qt (1.4.0-2) unstable; urgency=medium
+
+  * debian/control: build-deps on qttools5-dev. (Closes:#1078305)
+  * debian/control: bump to Standards-version to 4.7.0, no changes needed.
+  * debian/copyright: added myself.
+
+ -- Macy Lin <macy@debconf.org>  Mon, 09 Sep 2024 21:12:20 +0800
+
+pavucontrol-qt (1.4.0-1) unstable; urgency=medium
+
+  * New upstream version 1.4.0.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sun, 10 Dec 2023 17:09:48 +0100
+
+pavucontrol-qt (1.3.0-1) unstable; urgency=medium
+
+  * New upstream version 1.3.0.
+  * debian/control: build-deps on lxqt-build-tools (>= 0.13.0~).
+  * debian/copyright: update.
+  * debian/upstream/metadata: drop obsolete field Name.
+  * debian/upstream/metadata: correct the git Repository url as itʼs
+    different from Repository-Browse.
+  * debian/rules: Drop --fail-missing argument to dh_missing which is now
+    default in debhelper 13.
+  * debian/salsa-ci.yml: allow failure on blhc error.
+  * debian/control: update team address.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sat, 05 Aug 2023 05:51:34 +0200
+
+pavucontrol-qt (1.2.0-1) unstable; urgency=medium
+
+  * Merge to unstable.
+  * New upstream release.
+  * Update d/watch for GitHub.
+  * Bump Standards-Version to 4.6.2.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Thu, 05 Jan 2023 12:51:18 +0800
+
+pavucontrol-qt (1.1.0-1) experimental; urgency=medium
+
+  * New upstream release 1.1.0.
+  * Removed obsolete debian/compat file.
+  * Switched to GBP.
+  * Upstreamed non-Ubuntu-specific packaging changes from Ubuntu, modifying
+    the following files:
+    - control
+    - copyright
+    - lintian-overrides
+    - *.install
+    - rules
+    - upstream/*
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Sun, 10 Jul 2022 04:35:38 -0500
+
+pavucontrol-qt (0.16.0-2) unstable; urgency=medium
+
+  * Depend on either pulseaudio or pipewire-pulse (Closes: #995690)
+
+ -- Arto Jantunen <viiru@debian.org>  Wed, 03 Nov 2021 12:41:14 +0200
+
 pavucontrol-qt (0.16.0-1) unstable; urgency=medium
 
   [ Alf Gaida ]

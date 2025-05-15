@@ -155,32 +155,32 @@
         <translation> ms</translation>
     </message>
     <message>
-        <location filename="../devicewidget.cc" line="41"/>
+        <location filename="../devicewidget.cc" line="42"/>
         <source>Rename device...</source>
         <translation>Pervadinti įrenginį...</translation>
     </message>
     <message>
-        <location filename="../devicewidget.cc" line="155"/>
+        <location filename="../devicewidget.cc" line="156"/>
         <source>pa_context_set_port_latency_offset() failed</source>
         <translation>pa_context_set_port_latency_offset() nepavyko</translation>
     </message>
     <message>
-        <location filename="../devicewidget.cc" line="226"/>
+        <location filename="../devicewidget.cc" line="227"/>
         <source>Sorry, but device renaming is not supported.</source>
         <translation>Atleiskite, tačiau įrenginio pervadinimas yra nepalaikomas.</translation>
     </message>
     <message>
-        <location filename="../devicewidget.cc" line="227"/>
+        <location filename="../devicewidget.cc" line="228"/>
         <source>You need to load module-device-manager in the PulseAudio server in order to rename devices</source>
         <translation>Norėdami pervadinti įrenginius, turite į PulseAudio serverį įkelti module-device-manager</translation>
     </message>
     <message>
-        <location filename="../devicewidget.cc" line="233"/>
+        <location filename="../devicewidget.cc" line="234"/>
         <source>Rename device %1 to:</source>
         <translation>Pervadinti įrenginį %1 į:</translation>
     </message>
     <message>
-        <location filename="../devicewidget.cc" line="240"/>
+        <location filename="../devicewidget.cc" line="241"/>
         <source>pa_ext_device_manager_set_device_description() failed</source>
         <translation>pa_ext_device_manager_set_device_description() nepavyko</translation>
     </message>
@@ -325,48 +325,48 @@
     </message>
     <message>
         <location filename="../mainwindow.cc" line="163"/>
-        <location filename="../mainwindow.cc" line="257"/>
+        <location filename="../mainwindow.cc" line="259"/>
         <source> (unavailable)</source>
         <translation> (neprieinama)</translation>
     </message>
     <message>
         <location filename="../mainwindow.cc" line="165"/>
-        <location filename="../mainwindow.cc" line="254"/>
+        <location filename="../mainwindow.cc" line="256"/>
         <source> (unplugged)</source>
         <translation> (kištukas ištrauktas)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cc" line="388"/>
+        <location filename="../mainwindow.cc" line="390"/>
         <source>Failed to read data from stream</source>
         <translation>Nepavyko perskaityti duomenų iš srauto</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cc" line="432"/>
+        <location filename="../mainwindow.cc" line="434"/>
         <source>Peak detect</source>
         <translation>Maksimumų aptikimas</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cc" line="433"/>
+        <location filename="../mainwindow.cc" line="435"/>
         <source>Failed to create monitoring stream</source>
         <translation>Nepavyko sukurti monitorinio srauto</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cc" line="448"/>
+        <location filename="../mainwindow.cc" line="450"/>
         <source>Failed to connect monitoring stream</source>
         <translation>Nepavyko prisijungti prie monitorinio srauto</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cc" line="587"/>
+        <location filename="../mainwindow.cc" line="590"/>
         <source>Ignoring sink-input due to it being designated as an event and thus handled by the Event widget</source>
         <translation>Rinktuvo įvesties nepaisoma dėl to, kad ji yra paskirta kaip įvykis ir todėl, yra apdorojama Įvykių valdiklio</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cc" line="759"/>
+        <location filename="../mainwindow.cc" line="762"/>
         <source>System Sounds</source>
         <translation>Sistemos garsai</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cc" line="1089"/>
+        <location filename="../mainwindow.cc" line="1092"/>
         <source>Establishing connection to PulseAudio. Please wait...</source>
         <translation>Užmezgiamas ryšys su PulseAudio. Prašome palaukti...</translation>
     </message>
@@ -521,45 +521,32 @@
     </message>
     <message>
         <location filename="../pavucontrol.cc" line="607"/>
-        <location filename="../pavucontrol.cc" line="664"/>
+        <location filename="../pavucontrol.cc" line="663"/>
         <source>PulseAudio Volume Control</source>
         <translation>PulseAudio garsio reguliavimas</translation>
     </message>
     <message>
         <location filename="../pavucontrol.cc" line="622"/>
-        <source>Connection to PulseAudio failed. Automatic retry in 5s
-
-In this case this is likely because PULSE_SERVER in the Environment/X11 Root Window Properties
-or default-server in client.conf is misconfigured.
-This situation can also arrise when PulseAudio crashed and left stale details in the X11 Root Window.
-If this is the case, then PulseAudio should autospawn again, or if this is not configured you should
-run start-pulseaudio-x11 manually.</source>
-        <translation>Prisijungimas prie PulseAudio nepavyko. Automatinis bandymas iš naujo po 5 sek.
-
-Šiuo atveju, taip, greičiausiai, yra dėl to, kad PULSE_SERVER aplinkoje/X11 šaknies (root) lango savybėse
-arba default-server, faile client.conf yra neteisingai sukonfigūruota.
-Ši situacija taip pat gali įvykti, kai PulseAudio užstringa ir palieka pasenusią išsamią informaciją
-X11 šaknies (root) lange.
-Jeigu tai yra tas atvejis, tuomet PulseAudio turėtų vėl automatiškai pasileisti, arba jeigu tai nėra
-sukonfigūruota, tuomet jūs turėtumėte paleisti start-pulseaudio-x11 rankiniu būdu.</translation>
+        <source>Connection to PulseAudio failed. Automatic retry in 5s.&lt;br&gt;&lt;br&gt;In this case this is likely because PULSE_SERVER in the Environment/X11 Root Window Propertiesor default-server in client.conf is misconfigured.&lt;br&gt;This situation can also arrise when PulseAudio crashed and left stale details in the X11 Root Window.&lt;br&gt;If this is the case, then PulseAudio should autospawn again, or if this is not configured you shouldrun start-pulseaudio-x11 manually.</source>
+        <translation>Ryšys su PulseAudio patyrė nesėkmę. Automatinis bandymas iš naujo po 5 sek.&lt;br&gt;&lt;br&gt;Šiuo atveju, greičiausiai, taip nutiko dėl to, kad PULSE_SERVER yra neteisingai sukonfigūruota aplinkos/X11 šakninio lango savybėse arba faile „client.conf“ neteisingai sukonfigūruota default-server.&lt;br&gt;Tokia situacija taip pat gali atsirasti, kai PulseAudio užstrigo ir X11 šakniniame lange paliko pasenusios informacijos.&lt;br&gt;Jei tai yra tas atvejis, tuomet PulseAudio turėtų ir vėl automatiškai pasileisti arba, jei tai nėra sukonfigūruota, jūs turėtumėte rankiniu būdu paleisti „start-pulseaudio-x11“.</translation>
     </message>
     <message>
-        <location filename="../pavucontrol.cc" line="672"/>
+        <location filename="../pavucontrol.cc" line="671"/>
         <source>Select a specific tab on load.</source>
         <translation>Įkėlus, pasirinkti tam tikrą kortelę.</translation>
     </message>
     <message>
-        <location filename="../pavucontrol.cc" line="675"/>
+        <location filename="../pavucontrol.cc" line="674"/>
         <source>Retry forever if pa quits (every 5 seconds).</source>
         <translation>Amžinai bandyti iš naujo, jei pa baigia darbą (kas 5 sekundes).</translation>
     </message>
     <message>
-        <location filename="../pavucontrol.cc" line="678"/>
+        <location filename="../pavucontrol.cc" line="677"/>
         <source>Maximize the window.</source>
         <translation>Išskleisti langą.</translation>
     </message>
     <message>
-        <location filename="../pavucontrol.cc" line="703"/>
+        <location filename="../pavucontrol.cc" line="702"/>
         <source>Fatal Error: Unable to connect to PulseAudio</source>
         <translation>Lemtingoji klaida: Nepavyko prisijungti prie PulseAudio</translation>
     </message>
@@ -585,27 +572,27 @@ sukonfigūruota, tuomet jūs turėtumėte paleisti start-pulseaudio-x11 rankiniu
         <translation>Nutraukti atkūrimą</translation>
     </message>
     <message>
-        <location filename="../sinkinputwidget.cc" line="53"/>
+        <location filename="../sinkinputwidget.cc" line="52"/>
         <source>Unknown output</source>
         <translation>Nežinoma išvestis</translation>
     </message>
     <message>
-        <location filename="../sinkinputwidget.cc" line="64"/>
+        <location filename="../sinkinputwidget.cc" line="63"/>
         <source>pa_context_set_sink_input_volume() failed</source>
         <translation>pa_context_set_sink_input_volume() nepavyko</translation>
     </message>
     <message>
-        <location filename="../sinkinputwidget.cc" line="79"/>
+        <location filename="../sinkinputwidget.cc" line="78"/>
         <source>pa_context_set_sink_input_mute() failed</source>
         <translation>pa_context_set_sink_input_mute() nepavyko</translation>
     </message>
     <message>
-        <location filename="../sinkinputwidget.cc" line="89"/>
+        <location filename="../sinkinputwidget.cc" line="88"/>
         <source>pa_context_kill_sink_input() failed</source>
         <translation>pa_context_kill_sink_input() nepavyko</translation>
     </message>
     <message>
-        <location filename="../sinkinputwidget.cc" line="114"/>
+        <location filename="../sinkinputwidget.cc" line="113"/>
         <source>pa_context_move_sink_input_by_index() failed</source>
         <translation>pa_context_move_sink_input_by_index() nepavyko</translation>
     </message>
@@ -651,27 +638,27 @@ sukonfigūruota, tuomet jūs turėtumėte paleisti start-pulseaudio-x11 rankiniu
         <translation>Nutraukti įrašymą</translation>
     </message>
     <message>
-        <location filename="../sourceoutputwidget.cc" line="60"/>
+        <location filename="../sourceoutputwidget.cc" line="59"/>
         <source>Unknown input</source>
         <translation>Nežinoma įvestis</translation>
     </message>
     <message>
-        <location filename="../sourceoutputwidget.cc" line="72"/>
+        <location filename="../sourceoutputwidget.cc" line="71"/>
         <source>pa_context_set_source_output_volume() failed</source>
         <translation>pa_context_set_source_output_volume() nepavyko</translation>
     </message>
     <message>
-        <location filename="../sourceoutputwidget.cc" line="87"/>
+        <location filename="../sourceoutputwidget.cc" line="86"/>
         <source>pa_context_set_source_output_mute() failed</source>
         <translation>pa_context_set_source_output_mute() nepavyko</translation>
     </message>
     <message>
-        <location filename="../sourceoutputwidget.cc" line="98"/>
+        <location filename="../sourceoutputwidget.cc" line="97"/>
         <source>pa_context_kill_source_output() failed</source>
         <translation>pa_context_kill_source_output() nepavyko</translation>
     </message>
     <message>
-        <location filename="../sourceoutputwidget.cc" line="125"/>
+        <location filename="../sourceoutputwidget.cc" line="124"/>
         <source>pa_context_move_source_output_by_index() failed</source>
         <translation>pa_context_move_source_output_by_index() nepavyko</translation>
     </message>

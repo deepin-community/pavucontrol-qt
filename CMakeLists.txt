@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.1.0 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.18.0 FATAL_ERROR)
 # CMP0000: Call the cmake_minimum_required() command at the beginning of the top-level
 # CMakeLists.txt file even before calling the project() command.
 # The cmake_minimum_required(VERSION) command implicitly invokes the cmake_policy(VERSION)
@@ -19,18 +19,16 @@ include(GNUInstallDirs)
 
 # Minimum Versions
 set(GLIB_MINIMUM_VERSION "2.50.0")
-set(LXQTBT_MINIMUM_VERSION "0.8.0")
-set(QT_MINIMUM_VERSION "5.12.0")
+set(LXQTBT_MINIMUM_VERSION "2.1.0")
+set(QT_MINIMUM_VERSION "6.6.0")
 
-find_package(Qt5Widgets ${QT_MINIMUM_VERSION} REQUIRED)
-find_package(Qt5LinguistTools ${QT_MINIMUM_VERSION} REQUIRED)
-find_package(Qt5DBus ${QT_MINIMUM_VERSION} REQUIRED)
-find_package(lxqt-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
+find_package(Qt6 ${QT_MINIMUM_VERSION} COMPONENTS REQUIRED Widgets LinguistTools)
+find_package(lxqt2-build-tools ${LXQTBT_MINIMUM_VERSION} REQUIRED)
 
 find_package(GLIB ${GLIB_MINIMUM_VERSION} REQUIRED)
 
-set(PAVUCONTROLQT_MAJOR_VERSION 0)
-set(PAVUCONTROLQT_MINOR_VERSION 16)
+set(PAVUCONTROLQT_MAJOR_VERSION 2)
+set(PAVUCONTROLQT_MINOR_VERSION 1)
 set(PAVUCONTROLQT_PATCH_VERSION 0)
 set(PAVUCONTROLQT_VERSION ${PAVUCONTROLQT_MAJOR_VERSION}.${PAVUCONTROLQT_MINOR_VERSION}.${PAVUCONTROLQT_PATCH_VERSION})
 add_definitions("-DPAVUCONTROLQT_VERSION=\"${PAVUCONTROLQT_VERSION}\"")

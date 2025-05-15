@@ -1,3 +1,39 @@
+pavucontrol-qt-2.1.0 / 2024-11-05
+==================================
+ * Updated `pavucontrol-qt.desktop.yaml`.
+ * Fixed the limits of offset spin-box.
+
+pavucontrol-qt-2.0.0 / 2024-04-17
+==================================
+ * Ported to Qt6.
+
+pavucontrol-qt-1.4.0 / 2023-11-05
+==================================
+ * Updated translations and bumped the version.
+
+pavucontrol-qt-1.3.0 / 2023-04-15
+==================================
+ * Fixed pa_stream leaks.
+ * Updated many translations.
+
+pavucontrol-qt-1.2.0 / 2022-11-05
+==================================
+ * Improved `Categories` `GenericName`, and `Comment` in the desktop entry.
+
+pavucontrol-qt-1.1.0 / 2022-04-15
+==================================
+ * Modernized some trivial destructors.
+ * Removed a redundant void argument in function definition.
+ * Pass by value and use `std::move()`.
+
+pavucontrol-qt-1.0.0 / 2021-11-04
+==================================
+ * Bumped minimum required Qt version to 5.15.
+
+pavucontrol-qt-0.17.0 / 2021-04-15
+==================================
+  * Removed the unused dbus dependency.
+
 pavucontrol-qt-0.16.0 / 2020-11-01
 ==================================
   * Safely iterate over card profile info array.
