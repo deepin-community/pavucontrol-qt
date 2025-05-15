@@ -30,13 +30,13 @@
         <location filename="../channel.cc" line="89"/>
         <source>%1% (%2dB)</source>
         <comment>volume slider label [X% (YdB)]</comment>
-        <translation>%1% (%2dB)</translation>
+        <translation>%1&#xa0;% (%2&#xa0;dB)</translation>
     </message>
     <message>
         <location filename="../channel.cc" line="93"/>
         <source>%1%</source>
         <comment>volume slider label [X%]</comment>
-        <translation>%1%</translation>
+        <translation>%1&#xa0;%</translation>
     </message>
     <message>
         <location filename="../channel.cc" line="160"/>
@@ -51,7 +51,7 @@
     <message>
         <location filename="../channel.cc" line="162"/>
         <source>&lt;small&gt;100% (0dB)&lt;/small&gt;</source>
-        <translation></translation>
+        <translation>&lt;small&gt;100&#xa0;% (0&#xa0;dB)&lt;/small&gt;</translation>
     </message>
     <message>
         <location filename="../channel.cc" line="165"/>
@@ -74,7 +74,7 @@
     <message>
         <location filename="../channelwidget.ui" line="34"/>
         <source>&lt;small&gt;50%&lt;/small&gt;</source>
-        <translation>&lt;small&gt;50%&lt;/small&gt;</translation>
+        <translation>&lt;small&gt;50&#xa0;%&lt;/small&gt;</translation>
     </message>
 </context>
 <context>
@@ -155,32 +155,32 @@
         <translation> ms</translation>
     </message>
     <message>
-        <location filename="../devicewidget.cc" line="41"/>
+        <location filename="../devicewidget.cc" line="42"/>
         <source>Rename device...</source>
-        <translation>Renombrar el dispositivo...</translation>
+        <translation>Cambiar nombre del dispositivo…</translation>
     </message>
     <message>
-        <location filename="../devicewidget.cc" line="155"/>
+        <location filename="../devicewidget.cc" line="156"/>
         <source>pa_context_set_port_latency_offset() failed</source>
         <translation>pa_context_set_port_latency_offset() ha fallado</translation>
     </message>
     <message>
-        <location filename="../devicewidget.cc" line="226"/>
-        <source>Sorry, but device renaming is not supported.</source>
-        <translation>Lo sentimos, no es posible renombrar el dispositivo.</translation>
-    </message>
-    <message>
         <location filename="../devicewidget.cc" line="227"/>
+        <source>Sorry, but device renaming is not supported.</source>
+        <translation>No se admite el cambio de nombre del dispositivo.</translation>
+    </message>
+    <message>
+        <location filename="../devicewidget.cc" line="228"/>
         <source>You need to load module-device-manager in the PulseAudio server in order to rename devices</source>
-        <translation>Necesita cargar module-device-manager en el servidor de PulseAudio para poder renombrar dispositivos</translation>
+        <translation>Necesita cargar module-device-manager en el servidor de PulseAudio para cambiar los nombres de los dispositivos</translation>
     </message>
     <message>
-        <location filename="../devicewidget.cc" line="233"/>
+        <location filename="../devicewidget.cc" line="234"/>
         <source>Rename device %1 to:</source>
-        <translation>Renombrar el dispositivo %1 a:</translation>
+        <translation>Cambiar nombre del dispositivo %1 a:</translation>
     </message>
     <message>
-        <location filename="../devicewidget.cc" line="240"/>
+        <location filename="../devicewidget.cc" line="241"/>
         <source>pa_ext_device_manager_set_device_description() failed</source>
         <translation>pa_ext_device_manager_set_device_description() ha fallado</translation>
     </message>
@@ -325,50 +325,50 @@
     </message>
     <message>
         <location filename="../mainwindow.cc" line="163"/>
-        <location filename="../mainwindow.cc" line="257"/>
+        <location filename="../mainwindow.cc" line="259"/>
         <source> (unavailable)</source>
         <translation> (no disponible)</translation>
     </message>
     <message>
         <location filename="../mainwindow.cc" line="165"/>
-        <location filename="../mainwindow.cc" line="254"/>
+        <location filename="../mainwindow.cc" line="256"/>
         <source> (unplugged)</source>
         <translation> (desconectado)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cc" line="388"/>
+        <location filename="../mainwindow.cc" line="390"/>
         <source>Failed to read data from stream</source>
         <translation>Fallo al leer datos del flujo</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cc" line="432"/>
+        <location filename="../mainwindow.cc" line="434"/>
         <source>Peak detect</source>
         <translation>Detección de picos</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cc" line="433"/>
+        <location filename="../mainwindow.cc" line="435"/>
         <source>Failed to create monitoring stream</source>
         <translation>Fallo al crear flujo de monitoreo</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cc" line="448"/>
+        <location filename="../mainwindow.cc" line="450"/>
         <source>Failed to connect monitoring stream</source>
         <translation>Fallo al conectarse al flujo de monitoreo</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cc" line="587"/>
+        <location filename="../mainwindow.cc" line="590"/>
         <source>Ignoring sink-input due to it being designated as an event and thus handled by the Event widget</source>
-        <translation>Se ignora el &quot;sink&quot; por estar designado como un evento, siendo así manejado por la miniaplicación Eventos</translation>
+        <translation>Se ignora la entrada del receptor por haberse designado como un suceso, siendo por tanto gestionado por la miniaplicación Sucesos</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cc" line="759"/>
+        <location filename="../mainwindow.cc" line="762"/>
         <source>System Sounds</source>
         <translation>Sonidos del sistema</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cc" line="1089"/>
+        <location filename="../mainwindow.cc" line="1092"/>
         <source>Establishing connection to PulseAudio. Please wait...</source>
-        <translation>Estableciendo la conexión a PulseAudio. Espere...</translation>
+        <translation>Estableciendo la conexión con PulseAudio. Espere…</translation>
     </message>
 </context>
 <context>
@@ -381,37 +381,37 @@
     <message>
         <location filename="../pavucontrol.cc" line="87"/>
         <source>Card callback failure</source>
-        <translation>Fallo en la llamada de respuesta de la tarjeta</translation>
+        <translation>Fallo en la devolución de llamada de la tarjeta</translation>
     </message>
     <message>
         <location filename="../pavucontrol.cc" line="110"/>
         <source>Sink callback failure</source>
-        <translation>Fallo en la llamada de respuesta al sumidero</translation>
+        <translation>Fallo en la devolución de llamada al receptor</translation>
     </message>
     <message>
         <location filename="../pavucontrol.cc" line="133"/>
         <source>Source callback failure</source>
-        <translation>Fallo en la llamada de respuesta a la fuente</translation>
+        <translation>Fallo en la devolución de llamada a la fuente</translation>
     </message>
     <message>
         <location filename="../pavucontrol.cc" line="152"/>
         <source>Sink input callback failure</source>
-        <translation>Fallo en la llamada de respuesta de entrada sumidero</translation>
+        <translation>Fallo en la devolución de llamada de la entrada del receptor</translation>
     </message>
     <message>
         <location filename="../pavucontrol.cc" line="171"/>
         <source>Source output callback failure</source>
-        <translation>Fallo en la llamada de respuesta de salida fuente</translation>
+        <translation>Fallo en la devolución de llamada de la salida de la fuente</translation>
     </message>
     <message>
         <location filename="../pavucontrol.cc" line="211"/>
         <source>Client callback failure</source>
-        <translation>Fallo en la llamada de respuesta al cliente</translation>
+        <translation>Fallo en la devolución de llamada al cliente</translation>
     </message>
     <message>
         <location filename="../pavucontrol.cc" line="227"/>
         <source>Server info callback failure</source>
-        <translation>Fallo en la llamada de respuesta por información del servidor</translation>
+        <translation>Fallo en la devolución de llamada por información del servidor</translation>
     </message>
     <message>
         <location filename="../pavucontrol.cc" line="245"/>
@@ -521,44 +521,32 @@
     </message>
     <message>
         <location filename="../pavucontrol.cc" line="607"/>
-        <location filename="../pavucontrol.cc" line="664"/>
+        <location filename="../pavucontrol.cc" line="663"/>
         <source>PulseAudio Volume Control</source>
         <translation>Control de volumen de PulseAudio</translation>
     </message>
     <message>
         <location filename="../pavucontrol.cc" line="622"/>
-        <source>Connection to PulseAudio failed. Automatic retry in 5s
-
-In this case this is likely because PULSE_SERVER in the Environment/X11 Root Window Properties
-or default-server in client.conf is misconfigured.
-This situation can also arrise when PulseAudio crashed and left stale details in the X11 Root Window.
-If this is the case, then PulseAudio should autospawn again, or if this is not configured you should
-run start-pulseaudio-x11 manually.</source>
-        <translation>La conexión a PulseAudio ha fallado. Reintento automático en 5s
-
-En este caso es probable porque PULSE_SERVER en las propiedades de Entorno/Ventana raíz de X11
-o servidor por omisión en client.conf esté mal configurada.
-Esta situación también puede surgir cuando PulseAudio ha fallado y dejado restos en la Ventana raíz de X11.
-Si este es el caso, entonces PulseAudio debería reiniciarse de nuevo, o, si esto no está configurado, usted debería
-ejecutar start-pulseaudio-x11 manualmente.</translation>
+        <source>Connection to PulseAudio failed. Automatic retry in 5s.&lt;br&gt;&lt;br&gt;In this case this is likely because PULSE_SERVER in the Environment/X11 Root Window Propertiesor default-server in client.conf is misconfigured.&lt;br&gt;This situation can also arrise when PulseAudio crashed and left stale details in the X11 Root Window.&lt;br&gt;If this is the case, then PulseAudio should autospawn again, or if this is not configured you shouldrun start-pulseaudio-x11 manually.</source>
+        <translation>La conexión con PulseAudio ha fallado. Se volverá a intentar automáticamente en 5.&lt;br&gt;&lt;br&gt;En este caso, es probable que se deba a una configuración incorrecta de PULSE_SERVER en las Propiedades de la Ventana Raíz de Environment/X11, o default-server en client.conf. &lt;br&gt;Esta situación también puede ocurrir cuando PulseAudio falla y se va detalles obsoletos en la ventana raíz de X11.&lt;br&gt;Si este es el caso, entonces PulseAudio debería iniciarse automáticamente de nuevo, o si esto no está configurado, deberías ejecutar start-pulseaudio-x11 manualmente.</translation>
     </message>
     <message>
-        <location filename="../pavucontrol.cc" line="672"/>
+        <location filename="../pavucontrol.cc" line="671"/>
         <source>Select a specific tab on load.</source>
         <translation>Seleccionar una pestaña específica al cargar.</translation>
     </message>
     <message>
-        <location filename="../pavucontrol.cc" line="675"/>
+        <location filename="../pavucontrol.cc" line="674"/>
         <source>Retry forever if pa quits (every 5 seconds).</source>
         <translation>Reintentar indefinidamente si pa termina (cada 5 segundos).</translation>
     </message>
     <message>
-        <location filename="../pavucontrol.cc" line="678"/>
+        <location filename="../pavucontrol.cc" line="677"/>
         <source>Maximize the window.</source>
         <translation>Maximizar la ventana.</translation>
     </message>
     <message>
-        <location filename="../pavucontrol.cc" line="703"/>
+        <location filename="../pavucontrol.cc" line="702"/>
         <source>Fatal Error: Unable to connect to PulseAudio</source>
         <translation>Error fatal: no se puede reconectar con PulseAudio</translation>
     </message>
@@ -584,27 +572,27 @@ ejecutar start-pulseaudio-x11 manualmente.</translation>
         <translation>Terminar la reproducción</translation>
     </message>
     <message>
-        <location filename="../sinkinputwidget.cc" line="53"/>
+        <location filename="../sinkinputwidget.cc" line="52"/>
         <source>Unknown output</source>
         <translation>Salida desconocida</translation>
     </message>
     <message>
-        <location filename="../sinkinputwidget.cc" line="64"/>
+        <location filename="../sinkinputwidget.cc" line="63"/>
         <source>pa_context_set_sink_input_volume() failed</source>
         <translation>pa_context_set_sink_input_volume() ha fallado</translation>
     </message>
     <message>
-        <location filename="../sinkinputwidget.cc" line="79"/>
+        <location filename="../sinkinputwidget.cc" line="78"/>
         <source>pa_context_set_sink_input_mute() failed</source>
         <translation>pa_context_set_sink_input_mute() ha fallado</translation>
     </message>
     <message>
-        <location filename="../sinkinputwidget.cc" line="89"/>
+        <location filename="../sinkinputwidget.cc" line="88"/>
         <source>pa_context_kill_sink_input() failed</source>
         <translation>pa_context_kill_sink_input() ha fallado</translation>
     </message>
     <message>
-        <location filename="../sinkinputwidget.cc" line="114"/>
+        <location filename="../sinkinputwidget.cc" line="113"/>
         <source>pa_context_move_sink_input_by_index() failed</source>
         <translation>pa_context_move_sink_input_by_index() ha fallado</translation>
     </message>
@@ -650,27 +638,27 @@ ejecutar start-pulseaudio-x11 manualmente.</translation>
         <translation>Terminar la grabación</translation>
     </message>
     <message>
-        <location filename="../sourceoutputwidget.cc" line="60"/>
+        <location filename="../sourceoutputwidget.cc" line="59"/>
         <source>Unknown input</source>
         <translation>Entrada desconocida</translation>
     </message>
     <message>
-        <location filename="../sourceoutputwidget.cc" line="72"/>
+        <location filename="../sourceoutputwidget.cc" line="71"/>
         <source>pa_context_set_source_output_volume() failed</source>
         <translation>pa_context_set_source_output_volume() ha fallado</translation>
     </message>
     <message>
-        <location filename="../sourceoutputwidget.cc" line="87"/>
+        <location filename="../sourceoutputwidget.cc" line="86"/>
         <source>pa_context_set_source_output_mute() failed</source>
         <translation>pa_context_set_source_output_mute() ha fallado</translation>
     </message>
     <message>
-        <location filename="../sourceoutputwidget.cc" line="98"/>
+        <location filename="../sourceoutputwidget.cc" line="97"/>
         <source>pa_context_kill_source_output() failed</source>
         <translation>pa_context_kill_source_output() ha fallado</translation>
     </message>
     <message>
-        <location filename="../sourceoutputwidget.cc" line="125"/>
+        <location filename="../sourceoutputwidget.cc" line="124"/>
         <source>pa_context_move_source_output_by_index() failed</source>
         <translation>pa_context_move_source_output_by_index() ha fallado</translation>
     </message>
@@ -728,7 +716,7 @@ ejecutar start-pulseaudio-x11 manualmente.</translation>
     <message>
         <location filename="../streamwidget.ui" line="79"/>
         <source>Lock channels together</source>
-        <translation>Bloquear juntos los canales</translation>
+        <translation>Sincronizar canales</translation>
     </message>
     <message>
         <location filename="../streamwidget.cc" line="34"/>

@@ -57,6 +57,7 @@ lxqt_translate_ts(pavucontrol-qt_QM_FILES
 lxqt_translate_desktop(DESKTOP_FILES
     SOURCES
     pavucontrol-qt.desktop.in
+    USE_YAML
 )
 
 add_executable(pavucontrol-qt
@@ -72,8 +73,7 @@ set_property(
 )
 
 target_link_libraries(pavucontrol-qt
-    Qt5::Widgets
-    Qt5::DBus
+    Qt6::Widgets
     ${PULSE_LDFLAGS}
     ${GLIB_LDFLAGS}
 )
